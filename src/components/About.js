@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import { image } from '../data/user'; // Adjust the path based on your folder structure
 
 function About() {
   return (
@@ -9,3 +10,5 @@ function About() {
     </div>
   );
 }
+
+export default About;
